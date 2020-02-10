@@ -1,1 +1,1 @@
-arcpy.AddJohn_management(in_layer_or_view=ok_mesonet_sites_active_20181031, in_field="std", join_table=Jul0120191200_csv, join_field="STID", join_type="KEEP_SMALL")
+arcpy.AddJoin_management(in_layer_or_view=ok_mesonet_sites_active_20181031, in_field="stid", join_table=Jul0120191200_csv, join_field="STID", join_type="KEEP_SMALL")
